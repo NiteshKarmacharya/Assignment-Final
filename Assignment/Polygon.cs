@@ -9,7 +9,6 @@ namespace Assignment
 {
     class Polygon : ShapeInterface
     {
-
         Pen p = new Pen(Color.Red, 2);
         int side1, side2, side3;
         public void drawshape(Graphics g, int x = 0, int y = 0, params string[] getResult)

@@ -16,7 +16,6 @@ namespace Assignment
             if(getResult[1] == "radius")
             {
                 radius = 50;
-
             }
             else
             {
