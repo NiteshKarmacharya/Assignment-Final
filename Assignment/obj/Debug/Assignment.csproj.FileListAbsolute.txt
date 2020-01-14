@@ -1,0 +1,23 @@
+C:\Users\Nitesh karmacharya\source\repos\Assignment\Assignment\bin\Debug\Assignment.exe.config
+C:\Users\Nitesh karmacharya\source\repos\Assignment\Assignment\bin\Debug\Assignment.exe
+C:\Users\Nitesh karmacharya\source\repos\Assignment\Assignment\bin\Debug\Assignment.pdb
+C:\Users\Nitesh karmacharya\source\repos\Assignment\Assignment\obj\Debug\Assignment.csprojAssemblyReference.cache
+C:\Users\Nitesh karmacharya\source\repos\Assignment\Assignment\obj\Debug\Assignment.Form1.resources
+C:\Users\Nitesh karmacharya\source\repos\Assignment\Assignment\obj\Debug\Assignment.Properties.Resources.resources
+C:\Users\Nitesh karmacharya\source\repos\Assignment\Assignment\obj\Debug\Assignment.csproj.GenerateResource.cache
+C:\Users\Nitesh karmacharya\source\repos\Assignment\Assignment\obj\Debug\Assignment.exe
+C:\Users\Nitesh karmacharya\source\repos\Assignment\Assignment\obj\Debug\Assignment.pdb
+C:\Users\Nitesh karmacharya\source\repos\Assignment\Assignment\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Nitesh karmacharya\source\repos\Assignment\Assignment\obj\Debug\Assignment.csproj.CopyComplete
+C:\Users\Nitesh karmacharya\source\repos\Assignment test\Assignment\obj\Debug\Assignment.csprojAssemblyReference.cache
+C:\Users\Nitesh karmacharya\source\repos\Assignment test\Assignment\obj\Debug\Assignment.Form1.resources
+C:\Users\Nitesh karmacharya\source\repos\Assignment test\Assignment\obj\Debug\Assignment.Properties.Resources.resources
+C:\Users\Nitesh karmacharya\source\repos\Assignment test\Assignment\obj\Debug\Assignment.csproj.GenerateResource.cache
+C:\Users\Nitesh karmacharya\source\repos\Assignment test\Assignment\obj\Debug\Assignment.exe
+C:\Users\Nitesh karmacharya\source\repos\Assignment test\Assignment\obj\Debug\Assignment.pdb
+C:\Users\Nitesh karmacharya\source\repos\Assignment test\Assignment\bin\Debug\Assignment.exe.config
+C:\Users\Nitesh karmacharya\source\repos\Assignment test\Assignment\bin\Debug\Assignment.exe
+C:\Users\Nitesh karmacharya\source\repos\Assignment test\Assignment\bin\Debug\Assignment.pdb
+C:\Users\Nitesh karmacharya\source\repos\Assignment test\Assignment\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Nitesh karmacharya\source\repos\Assignment test\Assignment\obj\Debug\Assignment.csproj.CopyComplete
+C:\Users\Nitesh karmacharya\source\repos\Assignment test\Assignment\bin\Debug\Assignment.xml
