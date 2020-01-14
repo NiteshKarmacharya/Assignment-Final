@@ -32,10 +32,10 @@ namespace Assignment
                 return new Triangle();
             }
 
-            //if (shapeType == "polygon")
-            //{
-            //    return new Polygon();
-            //}
+            if (shapeType == "polygon")
+            {
+                return new Polygon();
+            }
 
             return null;
         }

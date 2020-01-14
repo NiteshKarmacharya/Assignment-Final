@@ -114,6 +114,13 @@ namespace Assignment
                             shapeinterface.drawshape(g, pos1, pos2, getInput);
                         }
 
+                        else if (getInput[0] == "polygon")
+                        {
+                            Shape shape = new Shape();
+                            ShapeInterface shapeinterface = shape.getShape(getInput[0]);
+                            shapeinterface.drawshape(g, pos1, pos2, getInput);
+                        }
+
                         else
                         {
                             throw new Exception("Parameter Not Found !!!");
@@ -183,6 +190,12 @@ namespace Assignment
                 }
 
                 else if (getInput[0] == "triangle")
+                {
+                    Shape shape = new Shape();
+                    ShapeInterface shapeinterface = shape.getShape(getInput[0]);
+                    shapeinterface.drawshape(g, pos1, pos2, getInput);
+                }
+                else if (getInput[0] == "polygon")
                 {
                     Shape shape = new Shape();
                     ShapeInterface shapeinterface = shape.getShape(getInput[0]);
