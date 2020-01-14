@@ -14,7 +14,9 @@ namespace Assignment
     {
         int pos1, pos2;
         Graphics g;
-
+        /// <summary>
+        /// Form1 is to create windows form.
+        /// </summary>
         public Form1()
         {
             InitializeComponent();
@@ -28,7 +30,11 @@ namespace Assignment
             Application.Exit();
         }
 
-        //minimize button function
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
 
         private void btnMinimize_Click(object sender, EventArgs e)
         {
@@ -78,7 +84,7 @@ namespace Assignment
                     string[] getInput = validate.getValidate(UserInput);
                     if (getInput.Length > 1)
                     {
-                        if (getInput[0] == "moveto")
+                        if (getInput[0].Equals("moveto"))
                         {
                             int x = Convert.ToInt32(getInput[1]);
                             int y = Convert.ToInt32(getInput[2]);
@@ -86,35 +92,35 @@ namespace Assignment
                             pos2 = y;
                         }
 
-                        else if (getInput[0] == "line")
+                        else if (getInput[0].Equals("line"))
                         {
                             Shape shape = new Shape();
                             ShapeInterface shapeinterface = shape.getShape(getInput[0]);
                             shapeinterface.drawshape(g, pos1, pos2, getInput);
                         }
 
-                        else if (getInput[0] == "rectangle")
+                        else if (getInput[0].Equals("rectangle"))
                         {
                             Shape shape = new Shape();
                             ShapeInterface shapeinterface = shape.getShape(getInput[0]);
                             shapeinterface.drawshape(g, pos1, pos2, getInput);
                         }
 
-                        else if (getInput[0] == "circle")
+                        else if (getInput[0].Equals("circle"))
                         {
                             Shape shape = new Shape();
                             ShapeInterface shapeinterface = shape.getShape(getInput[0]);
                             shapeinterface.drawshape(g, pos1, pos2, getInput);
                         }
 
-                        else if (getInput[0] == "triangle")
+                        else if (getInput[0].Equals("triangle"))
                         {
                             Shape shape = new Shape();
                             ShapeInterface shapeinterface = shape.getShape(getInput[0]);
                             shapeinterface.drawshape(g, pos1, pos2, getInput);
                         }
 
-                        else if (getInput[0] == "polygon")
+                        else if (getInput[0].Equals("polygon"))
                         {
                             Shape shape = new Shape();
                             ShapeInterface shapeinterface = shape.getShape(getInput[0]);
@@ -150,7 +156,11 @@ namespace Assignment
                 this.Text = op.FileName;
             }
         }
-
+        /// <summary>
+        /// Its a run button to run single line command and draw shape from single line command
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         protected void btnRun_Click(object sender, EventArgs e)
         {
             string UserInput = this.UserInput.Text;
@@ -204,7 +214,7 @@ namespace Assignment
 
                 else
                 {
-                    throw new Exception("Parameter Not Found !!!");
+                    throw new Exception("Parameter Not Foundasdfasdf !!!");
                 }
             }
         }

@@ -7,10 +7,23 @@ using System.Threading.Tasks;
 
 namespace Assignment
 {
+    /// <summary>
+    /// Rectangle class is used to draw rectangle. This class inherit ShapeInterface. 
+    /// </summary>
     public class Rectangle : ShapeInterface
     {
         Pen p = new Pen(Color.Red,2);
+        /// <summary>
+        /// Variables to store length and beadth. 
+        /// </summary>
         public int length, breadth, pos1, pos2;
+        /// <summary>
+        /// Inside rectangele class, to draw rectangle.
+        /// </summary>
+        /// <param name="g"></param>
+        /// <param name="pos1"></param>
+        /// <param name="pos2"></param>
+        /// <param name="getResult"></param>
         public void drawshape(Graphics g, int pos1, int pos2, params string[] getResult)
         {
             if (getResult[1] == "length" && getResult[2] == "breadth")

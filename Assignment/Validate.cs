@@ -8,17 +8,22 @@ using System.Windows.Forms;
 
 namespace Assignment
 {
+    /// <summary>
+    /// Validate commands and parameters entered by end user.
+    /// </summary>
     public class Validate
     {
+        /// <summary>
+        /// Get input as paramenter and pass to validate.
+        /// </summary>
+        /// <param name="Input"></param>
+        /// <returns></returns>
         public string[] getValidate(string Input)
         {
             string[] retu = { };
+            
             string[] InputText = Input.Split(' ',',');
-            if (InputText[0] == "")
-            {
-                MessageBox.Show("Command not found !!!");
-            }
-            else if (InputText.Length > 1)
+            if (InputText.Length > 1)
             {
                 if (InputText[0].ToLower() == "moveto")
                 {
@@ -33,10 +38,8 @@ namespace Assignment
                     
                     else if (InputText.Length < 4)
                     {
-                        int x = Convert.ToInt32(InputText[1]);
-                        int y = Convert.ToInt32(InputText[2]);
-                        string penpos1 = Convert.ToString(x);
-                        string penpos2 = Convert.ToString(y);
+                        string penpos1 = InputText[1];
+                        string penpos2 = InputText[2];
                         string[] k = { "moveto", penpos1, penpos2 };
                         retu = k;
                     }
@@ -50,10 +53,8 @@ namespace Assignment
                 {
                     if (InputText.Length < 4 && InputText.Length > 2)
                     {
-                        int x = Convert.ToInt32(InputText[1]);
-                        int y = Convert.ToInt32(InputText[2]);
-                        string pointx = Convert.ToString(x);
-                        string pointy = Convert.ToString(y);
+                        string pointx = InputText[1];
+                        string pointy = InputText[2];
                         string[] k = { "line", pointx, pointy };
                         retu = k;
                     }
@@ -71,10 +72,8 @@ namespace Assignment
                 {
                     if (InputText.Length < 4 && InputText.Length > 2 )
                     {
-                        int x = Convert.ToInt32(InputText[1]);
-                        int y = Convert.ToInt32(InputText[2]);
-                        string length = Convert.ToString(x);
-                        string breadth = Convert.ToString(y);
+                        string length = InputText[1];
+                        string breadth = InputText[2];
                         string[] k = { "rectangle", length, breadth };
                         retu = k;
                     }
@@ -92,8 +91,7 @@ namespace Assignment
                 {
                     if (InputText.Length < 3)
                     {
-                        int x = Convert.ToInt32(InputText[1]);
-                        string radius = Convert.ToString(x);
+                        string radius = InputText[1];
                         string[] k = { "circle", radius };
                         retu = k;
                     }
@@ -124,6 +122,7 @@ namespace Assignment
                         MessageBox.Show("Parameter length not match !!! \nOnly three side is valid !!!");
                     }
                 }
+
                 else if (InputText[0].ToLower() == "polygon")
                 {
                     if (InputText.Length == 9)

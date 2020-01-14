@@ -1,5 +1,8 @@
 ﻿namespace Assignment
 {
+    /// <summary>
+    /// Creates windows form
+    /// </summary>
     partial class Form1
     {
         /// <summary>

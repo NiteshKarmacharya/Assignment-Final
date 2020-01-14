@@ -12,27 +12,27 @@ namespace Assignment
        public ShapeInterface getShape(string shapeType)
         {
             shapeType = shapeType.Trim();
-            if (shapeType == "line")
+            if (shapeType.Equals("line"))
             {
                 return new Draw();
             }
 
-            if (shapeType == "rectangle")
+            if (shapeType.Equals("rectangle"))
             {
                 return new Rectangle();
             }
 
-            if (shapeType == "circle")
+            if (shapeType.Equals("circle"))
             {
                 return new Circle();
             }
 
-            if (shapeType == "triangle")
+            if (shapeType.Equals("triangle"))
             {
                 return new Triangle();
             }
 
-            if (shapeType == "polygon")
+            if (shapeType.Equals("polygon"))
             {
                 return new Polygon();
             }
