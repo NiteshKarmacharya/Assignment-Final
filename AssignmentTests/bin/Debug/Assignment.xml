@@ -4,6 +4,49 @@
         <name>Assignment</name>
     </assembly>
     <members>
+        <member name="T:Assignment.Circle">
+            <summary>
+            Circle class is used to draw circle. This class inherit ShapeInterface. 
+            </summary>
+        </member>
+        <member name="F:Assignment.Circle.radius">
+            <summary>
+            Radius is a variable to draw circle with fixed radius that is 50.
+            </summary>
+        </member>
+        <member name="M:Assignment.Circle.drawshape(System.Drawing.Graphics,System.Int32,System.Int32,System.String[])">
+            <summary>
+            drawshape is method which was inherited from shapeinterface with prameter. It allows 4 parameter graphic position 1, position 2 and string array(radius only for circle).
+            </summary>
+            <param name="g"></param>
+            <param name="pos1"></param>
+            <param name="pos2"></param>
+            <param name="getResult"></param>
+        </member>
+        <member name="T:Assignment.Form1">
+            <summary>
+            Creates windows form
+            </summary>
+        </member>
+        <member name="M:Assignment.Form1.#ctor">
+            <summary>
+            Form1 is to create windows form.
+            </summary>
+        </member>
+        <member name="M:Assignment.Form1.btnMinimize_Click(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Assignment.Form1.btnRun_Click(System.Object,System.EventArgs)">
+            <summary>
+            Its a run button to run single line command and draw shape from single line command
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
         <member name="F:Assignment.Form1.components">
             <summary>
             Required designer variable.
@@ -25,6 +68,81 @@
             <summary>
             The main entry point for the application.
             </summary>
+        </member>
+        <member name="T:Assignment.Rectangle">
+            <summary>
+            Rectangle class is used to draw rectangle. This class inherit ShapeInterface. 
+            </summary>
+        </member>
+        <member name="F:Assignment.Rectangle.length">
+            <summary>
+            Variables to store length and beadth. 
+            </summary>
+        </member>
+        <member name="F:Assignment.Rectangle.breadth">
+            <summary>
+            Variables to store length and beadth. 
+            </summary>
+        </member>
+        <member name="F:Assignment.Rectangle.pos1">
+            <summary>
+            Variables to store length and beadth. 
+            </summary>
+        </member>
+        <member name="F:Assignment.Rectangle.pos2">
+            <summary>
+            Variables to store length and beadth. 
+            </summary>
+        </member>
+        <member name="M:Assignment.Rectangle.drawshape(System.Drawing.Graphics,System.Int32,System.Int32,System.String[])">
+            <summary>
+            Inside rectangele class, to draw rectangle.
+            </summary>
+            <param name="g"></param>
+            <param name="pos1"></param>
+            <param name="pos2"></param>
+            <param name="getResult"></param>
+        </member>
+        <member name="T:Assignment.Triangle">
+            <summary>
+            Triangle class is used to draw triangle. This class inherit ShapeInterface.
+            </summary>
+        </member>
+        <member name="F:Assignment.Triangle.side1">
+            <summary>
+            Three variables side1, side2 and side3 for base, adjecnt and hypotenuse of triangle.
+            </summary>
+        </member>
+        <member name="F:Assignment.Triangle.side2">
+            <summary>
+            Three variables side1, side2 and side3 for base, adjecnt and hypotenuse of triangle.
+            </summary>
+        </member>
+        <member name="F:Assignment.Triangle.side3">
+            <summary>
+            Three variables side1, side2 and side3 for base, adjecnt and hypotenuse of triangle.
+            </summary>
+        </member>
+        <member name="M:Assignment.Triangle.drawshape(System.Drawing.Graphics,System.Int32,System.Int32,System.String[])">
+            <summary>
+            Its inside the triangle class to draw triangle. It takes graphic, initial point x, y and adjcent, base and hypotenuse.
+            </summary>
+            <param name="g"></param>
+            <param name="x"></param>
+            <param name="y"></param>
+            <param name="getResult"></param>
+        </member>
+        <member name="T:Assignment.Validate">
+            <summary>
+            Validate commands and parameters entered by end user.
+            </summary>
+        </member>
+        <member name="M:Assignment.Validate.getValidate(System.String)">
+            <summary>
+            Get input as paramenter and pass to validate.
+            </summary>
+            <param name="Input"></param>
+            <returns></returns>
         </member>
         <member name="T:Assignment.Properties.Resources">
             <summary>
